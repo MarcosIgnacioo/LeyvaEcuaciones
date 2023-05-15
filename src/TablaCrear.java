@@ -6,7 +6,7 @@ public class TablaCrear extends JTable {
     static DefaultTableModel dtm;
     public static JScrollPane agregarTabla(){
         String[] nombresColumnas = {"i", "a", "b", "m", "f(a)","f(b)", "f(m)", "f(a)*f(m)", "Error"};
-        Object[][] datos = new Object[0][];
+        Object[][] datos = new Object[0][];//
         dtm = new DefaultTableModel(datos, nombresColumnas);
         JTable tablatest = new JTable(dtm);
         JScrollPane jsc = new JScrollPane(tablatest);
