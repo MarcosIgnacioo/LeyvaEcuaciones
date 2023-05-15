@@ -80,7 +80,7 @@ public class teste extends JFrame {
         System.out.println(fB);
 
         int i = 0;
-        double error = 1;
+        double error = 1;//asd
         do{
             if ((fA*fB) < 0){
                 m = (a - ((fA*(b-a))/(fB-fA)));
