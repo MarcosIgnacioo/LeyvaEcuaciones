@@ -3,7 +3,7 @@ import javax.swing.table.DefaultTableModel;
 
 public class TablaCrear extends JTable {
 
-    static DefaultTableModel dtm;
+    static DefaultTableModel dtm;//kung fu panda 4
     public static JScrollPane agregarTabla(){
         String[] nombresColumnas = {"i", "a", "b", "m", "f(a)","f(b)", "f(m)", "f(a)*f(m)", "Error"};
         Object[][] datos = new Object[0][];//
